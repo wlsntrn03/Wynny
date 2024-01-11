@@ -1,0 +1,22 @@
+name: Sync with Replit
+on:
+  push:
+    branches:
+      - main
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Sync with Replit
+        run: |
+          # Replace 'your-replit-url' with your Replit workspace URL
+          REPLIT_URL="https://replit.com/@wlsntrn03/Wynny"
+          # Replace 'your-replit-file-path' with the path to the file you want to sync
+          REPLIT_FILE_PATH="main.py"
+          # Replace 'your-github-file-path' with the path to the file in your GitHub repository
+          GITHUB_FILE_PATH="main.py"
+          # Replace 'your-github-repository' with your GitHub repository URL
+          GITHUB_REPOSITORY="https://github.com/wlsntrn03/Wynny"
+          curl -X POST -H "Content-Type: application/json" -d "{\"path\": \"$REPLIT_FILE_PATH\", \"content\": \"$(curl -sL https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/$GITHUB_FILE_PATH)\"}" https://replit.com/data/$REPLIT_URL
