@@ -1,7 +1,7 @@
 # Wynny
 Wynny is a Discord chatbot that has various commands.
 
-#Commands
+# Commands
 
 ## !help
 Sends a list of available commands.
