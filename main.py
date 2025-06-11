@@ -27,7 +27,7 @@ async def on_message(message):
     em.add_field(name="!dadjoke", value="Tells dad jokes")
     em.add_field(name="!csjoke", value="Tells CS jokes")
     em.add_field(name="!fortune", value="Reads fortune cookies")
-    em.add_field(name="!8ball [question]", value="Answers a yes/no question")
+    em.add_field(name="!8ball [question]", value="Answers yes/no questions")
 
     await message.channel.send(embed=em)
 
