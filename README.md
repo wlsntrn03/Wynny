@@ -11,17 +11,17 @@ Sends a list of available commands.
 ## !dog
 Sends an image of a dog and a fun fact.
 
-<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/dog.PNG" alt="dog command" style="max-width: auto; height: 400px;">
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/dog.PNG" alt="dog command" style="max-width: auto; height: 450px;">
 
 ## !cat
 Sends an image of a cat and a fun fact.
 
-<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/cat.PNG" alt="cat command" style="max-width: auto; height: 400px;">
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/cat.PNG" alt="cat command" style="max-width: auto; height: 450px;">
 
 ## !dadjoke
 Tells a random dad joke.
 
-<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/dadjoke.PNG" alt="dadjoke command" style="max-width: auto; height: 350px;">
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/dadjoke.PNG" alt="dadjoke command" style="max-width: auto; height: 300px;">
 
 ## !csjoke
 Tells a random cs joke.
