@@ -10,25 +10,31 @@ Sends a list of available commands.
 
 ## !dog
 Sends an image of a dog and a fun fact.
-![image](https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/dog.PNG)
+
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/dog.PNG" alt="dog command" style="max-width: auto; height: 300px;">
 
 ## !cat
 Sends an image of a cat and a fun fact.
-![image](https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/cat.PNG)
+
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/cat.PNG" alt="cat command" style="max-width: auto; height: 300px;">
 
 ## !dadjoke
 Tells a random dad joke.
-![image](https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/dadjoke.PNG)
+
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/dadjoke.PNG" alt="dadjoke command" style="max-width: auto; height: 300px;">
 
 ## !csjoke
 Tells a random cs joke.
-![image](https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/csjoke.PNG)
+
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/csjoke.PNG" alt="csjoke command" style="max-width: auto; height: 300px;">
 
 ## !fortune
 Reads a fortune cookie.
-![image](https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/fortune.PNG)
+
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/fortune.PNG" alt="fortune command" style="max-width: auto; height: 300px;">
 
 ## !8ball
 Answers a yes/no question.
 Warning: It might not always give the answer that you want to hear!
-![image](https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/8ball.PNG)
+
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/8ball.PNG" alt="8ball command" style="max-width: auto; height: 300px;">
