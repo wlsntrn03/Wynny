@@ -16,7 +16,7 @@ Sends an image of a dog and a fun fact.
 ## !cat
 Sends an image of a cat and a fun fact.
 
-<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/cat.PNG" alt="cat command" style="max-width: auto; height: 450px;">
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/cat.PNG" alt="cat command" style="max-width: auto; height: 400px;">
 
 ## !dadjoke
 Tells a random dad joke.
