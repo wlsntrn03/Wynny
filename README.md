@@ -21,7 +21,7 @@ Sends an image of a cat and a fun fact.
 ## !dadjoke
 Tells a random dad joke.
 
-<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/dadjoke.PNG" alt="dadjoke command" style="max-width: auto; height: 300px;">
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/dadjoke.PNG" alt="dadjoke command" style="max-width: auto; height: 350px;">
 
 ## !csjoke
 Tells a random cs joke.
