@@ -31,7 +31,7 @@ Tells a random cs joke.
 ## !fortune
 Reads a fortune cookie.
 
-<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/fortune.PNG" alt="fortune command" style="max-width: auto; height: 500px;">
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/fortune.PNG" alt="fortune command" style="max-width: auto; height: 550px;">
 
 ## !8ball
 Answers a yes/no question.
