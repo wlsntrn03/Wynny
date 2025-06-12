@@ -4,7 +4,7 @@ Wynny is a Discord chatbot that has various fun commands.
 # Commands
 
 ## !help
-Sends a list of available commands.<br>
+Sends a list of available commands.
 
 <img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/help.PNG" alt="help command" style="max-width: auto; height: 300px;">
 
