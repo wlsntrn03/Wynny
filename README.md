@@ -48,12 +48,12 @@ Tells a random cs joke.
 
 <img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/csjoke.PNG" alt="csjoke command" style="max-width: auto; height: 400px;">
 
-## !insult
+## !insult [name]
 Insults a given person.
 
 <img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/insult.PNG" alt="insult command" style="max-width: auto; height: 200px;">
 
-## !8ball
+## !8ball [question]
 Answers a yes/no question.
 Warning: It might not always give the answer that you want to hear!
 
