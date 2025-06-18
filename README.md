@@ -18,6 +18,26 @@ Sends an image of a cat and a fun fact.
 
 <img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/cat.PNG" alt="cat command" style="max-width: auto; height: 400px;">
 
+## !meme
+Sends a random meme.
+
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/meme.PNG" alt="help command" style="max-width: auto; height: 300px;">
+
+## !fortune
+Reads a fortune cookie.
+
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/fortune.PNG" alt="fortune command" style="max-width: auto; height: 550px;">
+
+## !poem
+Reads a poem.
+
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/poem.PNG" alt="fortune command" style="max-width: auto; height: 300px;">
+
+## !excuse
+Sends a random excuse.
+
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/excuse.PNG" alt="fortune command" style="max-width: auto; height: 300px;">
+
 ## !dadjoke
 Tells a random dad joke.
 
@@ -28,10 +48,10 @@ Tells a random cs joke.
 
 <img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/csjoke.PNG" alt="csjoke command" style="max-width: auto; height: 400px;">
 
-## !fortune
-Reads a fortune cookie.
+## !insult
+Insults a given person.
 
-<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/fortune.PNG" alt="fortune command" style="max-width: auto; height: 550px;">
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/8ball.PNG" alt="8ball command" style="max-width: auto; height: 400px;">
 
 ## !8ball
 Answers a yes/no question.
