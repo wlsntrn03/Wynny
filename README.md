@@ -51,7 +51,7 @@ Tells a random cs joke.
 ## !insult
 Insults a given person.
 
-<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/insult.PNG" alt="insult command" style="max-width: auto; height: 250px;">
+<img src="https://raw.githubusercontent.com/wlsntrn03/Wynny/refs/heads/main/assets/insult.PNG" alt="insult command" style="max-width: auto; height: 200px;">
 
 ## !8ball
 Answers a yes/no question.
