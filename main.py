@@ -21,13 +21,17 @@ async def on_message(message):
   if message.content.lower().startswith("!help"):
     em = discord.Embed(title="Commands")
     em.set_author(name="Wynny", icon_url=client.user.avatar.url)
-    em.add_field(name="!help", value="List of commands")
-    em.add_field(name="!dog", value="Dog + fun fact!")
-    em.add_field(name="!cat", value="Cat + fun fact!")
-    em.add_field(name="!dadjoke", value="Tells dad jokes")
-    em.add_field(name="!csjoke", value="Tells CS jokes")
-    em.add_field(name="!fortune", value="Reads fortune cookies")
-    em.add_field(name="!8ball [question]", value="Answers yes/no questions")
+    em.add_field(name="!help", value="Show commands")
+    em.add_field(name="!dog", value="Dog + fact")
+    em.add_field(name="!cat", value="Cat + fact")
+    em.add_field(name="!meme", value="Random meme")
+    em.add_field(name="!fortune", value="Fortune message")
+    em.add_field(name="!poem", value="Read a poem")
+    em.add_field(name="!excuse", value="Random excuse")
+    em.add_field(name="!dadjoke", value="Dad joke")
+    em.add_field(name="!csjoke", value="CS joke")
+    em.add_field(name="!insult [name]", value="Playful insult")
+    em.add_field(name="!8ball [question]", value="Yes/no answer")
 
     await message.channel.send(embed=em)
 
@@ -131,6 +135,73 @@ async def on_message(message):
 
     await message.channel.send(joke)
 
+  # !POEM COMMAND
+  if message.content.lower().startswith("!poem"):
+    lines = ['3', '4', '5', '6', '7']
+
+    line = random.choice(lines)
+
+    req = requests.get("https://poetrydb.org/linecount/" + line)
+    res = req.json()
+
+    resArr = []
+
+    for i in range(0, len(res)):
+      resArr.append(i)
+
+    arr = random.choice(resArr)
+
+    des = ""
+    for string in res[arr]['lines']:
+      des += string + "\n"
+
+    em = discord.Embed(title="📖 " + res[arr]['title'],
+                       description=des,
+                       colour=discord.Colour.pink())
+    em.set_footer(text="— " + res[arr]['author'])
+
+    await message.channel.send(embed=em)
+
+  if message.content.lower().startswith(
+      "!excuse") and message.author != client.user:
+    categories = [
+        'family', 'office', 'children', 'college', 'funny', 'unbelievable'
+    ]
+
+    category = random.choice(categories)
+
+    req = requests.get("https://excuser-three.vercel.app/v1/excuse/" +
+                       category)
+    res = req.json()
+
+    await message.channel.send("🤥 " + res[0]['excuse'])
+
+  # !INSULT COMMAND
+  if message.content.lower().startswith("!insult"):
+    if len(message.content) > 8:
+      name = message.content[7:]
+      name = name.strip()
+
+      # if name[-1] == 's':
+      #   req = requests.get(
+      #       "https://insult.mattbas.org/api/en/insult.json?who=" + name +
+      #       "&plural=on")
+      # else:
+      req = requests.get("https://insult.mattbas.org/api/en/insult.json?who=" +
+                         name)
+
+      res = req.json()
+
+      await message.channel.send("😡 " + res['insult'] + ".")
+    else:
+      await message.channel.send("Please provide a name")
+
+  # !MEME COMMAND
+  if message.content.lower().startswith("!meme"):
+    req = requests.get("https://meme-api.com/gimme")
+    res = req.json()
+
+    await message.channel.send(res["url"])
 
 keep_alive()
 
